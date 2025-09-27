@@ -4,14 +4,14 @@
     {
         public static decimal? Div(decimal number1, decimal number2)
         {
-            //try
-            //{
-            return number1 / number2;
-            //}
-            //catch (Exception)
-            //{
-            //    return null;
-            //}
+            try
+            {
+                return number1 / number2;
+            }
+            catch (Exception)
+            {
+                return null;
+            }
         }
 
         static void Main(string[] args)
